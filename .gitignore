@@ -1,0 +1,28 @@
+# Environments
+myenv/
+env/
+venv/
+.env
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Data and Models (Generated/Large files)
+*.pkl
+data/
+movie_dict.pkl
+similarity.pkl
+
+# Environment variables / Secrets
+.env
+frontend/.env
+**/.env
+
+# Temporary or Scratch Scripts
+scratch*.py
+
+# Streamlit
+.streamlit/
